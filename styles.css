@@ -1,14 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    align-items: center;
-    background-color: #efedd6;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-    justify-content: center;
-    margin: 0;
-    overflow-x: hidden;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(73, 155, 234, 1) 0%,
+    rgba(185, 211, 235, 1) 44%,
+    rgba(219, 171, 171, 1) 76%,
+    rgba(227, 32, 32, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  margin: 0;
+}
+header {
+  font-family: "Roboto", sans-serif;
+  padding: 15px 15px;
+  font-size: 45px;
+  color: #0037ff;
+  margin: 10px;
+}
+footer {
+  font-family: "Roboto", sans-serif;
+  padding: 5px 5px;
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+}
+.icon {
+  font-size: 30px;
+}
+.avatar-github {
+  position: relative;
+  border-radius: 50%;
+  width: 4%;
+}
+.box {
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px 15px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  display: flex;
+  height: 750px;
+  width: 1200px;
+  justify-content: center;
+  margin: 20px;
+  transform: translateX(100%);
+  transition: transform 0.8s ease;
+}
+.box:nth-of-type(even) {
+  transform: translateX(-100%);
+}
+.box.show {
+  transform: translate(0);
+}
+.box h2 {
+  font-size: 45px;
+}
+.formations {
+  color: #717171;
 }
