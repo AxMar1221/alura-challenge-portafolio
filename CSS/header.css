@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin: 25px 25px;
+  padding: 25px 25px;
+  color: #ffffff;
+}
+header:hover {
+  border: 1px solid #ff4800;
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px 5px rgb(21, 5, 245);
+}
+.avatar-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.avatar-name img {
+  margin-right: 5px;
+}
+.avatar {
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  width: 8%;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav a:hover {
+  background: #ffffff;
+  color: #0037ff;
+  border-radius: 15px;
+  padding: 9px 9px;
+}
+.menu__list__item {
+  display: inline-block;
+  text-decoration: none;
+}
