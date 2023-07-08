@@ -1,18 +1,13 @@
 header {
-  width: 100%;
+  width: 95%;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 18px;
-  margin: 25px 25px;
-  padding: 25px 25px;
+  font-size: 16px;
+  margin: 5px 10px;
+  padding: 5px 10px;
   color: #ffffff;
-}
-header:hover {
-  border: 1px solid #ff4800;
-  border-radius: 25px;
-  box-shadow: 0px 0px 15px 5px rgb(21, 5, 245);
 }
 .avatar-name {
   display: flex;
@@ -25,8 +20,7 @@ header:hover {
 .avatar {
   display: block;
   position: relative;
-  border-radius: 50%;
-  width: 8%;
+  width: 25%;
 }
 nav a {
   text-decoration: none;
@@ -41,4 +35,9 @@ nav a:hover {
 .menu__list__item {
   display: inline-block;
   text-decoration: none;
+}
+.menu__list__item__email {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
 }
