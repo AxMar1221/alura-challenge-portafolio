@@ -37,5 +37,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   changeParagraphColors();
 
-  setInterval(changeParagraphColors, 30000);
+  setInterval(changeParagraphColors, 15000);
 });

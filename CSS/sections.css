@@ -12,7 +12,6 @@
 .biography__profile {
   width: 35%;
   border-radius: 368px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .biography__container {
   flex-shrink: 0;
@@ -56,8 +55,16 @@
   color: #ffffff;
   width: 100%;
 }
+.box-skills {
+  background: url(../assets/VS-CODE.png);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .skills__title {
-  color: #0037ff;
+  display: flex;
+  justify-content: flex-end;
+  color: #ffea00;
   text-transform: uppercase;
   font-size: 25px;
 }
@@ -68,9 +75,9 @@
   text-transform: uppercase;
   margin: 25px;
   padding: 25px;
-  background: url(../assets/VS-CODE.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
 }
 .skills__box ul {
   backdrop-filter: blur(2px);
@@ -101,4 +108,16 @@
 }
 .skills__img img {
   width: 65px;
+  transition: 1s all;
+}
+.skills__img:hover img {
+  transform: rotate(360deg);
+}
+.skills__menu  {
+  color: #ffea00;
+  display: flex;
+  justify-content: flex-end;
+}
+.skills__menu i {
+  margin-left: 5px;
 }
