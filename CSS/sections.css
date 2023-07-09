@@ -121,6 +121,11 @@
 .skills__menu i {
   margin-left: 5px;
 }
+.hobbies__title {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 25px;
+}
 .hobbies__line {
   display: flex;
   flex-direction: row;
@@ -128,7 +133,7 @@
   text-transform: uppercase;
   margin: 25px;
   padding: 25px;
-  height: 450px;
+  height: 550px;
   justify-content: center;
   align-items: center;
 }
@@ -137,7 +142,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 185px;
+  width: 305px;
   height: 145px;
   justify-content: space-between;
   border: 1px solid #0037ff;
@@ -159,4 +164,61 @@
   align-items: center;
   list-style: none;
 }
-
+.academic__title {
+  display: flex;
+  justify-content: right;
+  color: #ff0000;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.academic__courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+  margin: 25px;
+  padding: 25px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.academic__courses__box ul {
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 235px;
+  justify-content: space-between;
+  border: 1px solid #0037ff;
+  border-radius: 15px;
+  margin: 5px 15px;
+  padding: 5px 15px;
+  transition: 0.3s all;
+}
+.academic__courses__box ul:hover {
+  backdrop-filter: blur(15px);
+  background: transparent;
+  cursor: pointer;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  transform: scale(1.1);
+}
+.academic__courses__item__img,
+.academic__courses__item__title,
+.academic__courses__item__subtitle {
+  align-items: center;
+  list-style: none;
+}
+.academic__courses__item__img img {
+  width: 105px;
+}
+.skills__menu2  {
+  color: #ff0000;
+  display: flex;
+  justify-content: flex-end;
+}
+.skills__menu2 i {
+  margin-left: 5px;
+}
