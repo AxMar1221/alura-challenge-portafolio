@@ -56,30 +56,43 @@
   color: #ffffff;
   width: 100%;
 }
+.skills__title {
+  color: #0037ff;
+  text-transform: uppercase;
+  font-size: 25px;
+}
 .skills__line {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-transform: uppercase;
   margin: 25px;
   padding: 25px;
+  background: url(../assets/VS-CODE.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .skills__box ul {
+  backdrop-filter: blur(2px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 125px;
-  height: 105px;
+  width: 185px;
+  height: 115px;
   justify-content: space-between;
   border: 1px solid #0037ff;
   border-radius: 15px;
   margin: 5px 15px;
   padding: 5px 15px;
+  transition: 0.3s all;
 }
 .skills__box ul:hover {
-  background: #ffffff;
+  backdrop-filter: blur(15px);
+  background: transparent;
   cursor: pointer;
-  color: #ff5e00;
-  border: 1px solid #ff5e00;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  transform: scale(1.1);
 }
 .skills__name,
 .skills__img {
@@ -87,5 +100,5 @@
   list-style: none;
 }
 .skills__img img {
-  width: 45px;
+  width: 65px;
 }

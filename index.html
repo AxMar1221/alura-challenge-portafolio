@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link rel="stylesheet" href="./CSS/header.css" />
     <link rel="stylesheet" href="./CSS/sections.css" />
+    <link rel="stylesheet" href="./CSS/squares.css" />
     <title>Portafolio 🚀</title>
 </head>
 
@@ -22,9 +23,11 @@
                 <li class="menu__list__item"><a href="#sobre-mi"><i class="fa-solid fa-user"></i> Sobre mi</a></li>
                 <li class="menu__list__item"><a href="#skills"><i class="fa-solid fa-laptop"></i> Skills</a></li>
                 <li class="menu__list__item"><a href="#hobbies"><i class="fa-solid fa-gamepad"></i> Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion"><i class="fa-solid fa-graduation-cap"></i> Formación</a></li>
+                <li class="menu__list__item"><a href="#formacion"><i class="fa-solid fa-graduation-cap"></i>
+                        Formación</a></li>
                 <li class="menu__list__item"><a href="#xp"><i class="fa-solid fa-laptop-code"></i> Proyectos</a></li>
-                <li class="menu__list__item__email"><a href="#contacto"><i class="fa-solid fa-envelope"></i> tachidito_7inc@hotmial.com</a></li>
+                <li class="menu__list__item__email"><a href="#contacto"><i class="fa-solid fa-envelope"></i>
+                        tachidito_7inc@hotmial.com</a></li>
             </ul>
         </nav>
     </header>
@@ -47,7 +50,7 @@
                         <li class="biography__network__item"><a href=""><i class="fa-brands fa-github"></i> Github </a>
                         </li>
                         <li class="biography__network__item"><a href=""><i class="fa-brands fa-linkedin"></i>
-                                Linkedin</a></li>
+                                LinkedIn</a></li>
                         <li class="biography__network__item"><a href=""><i class="fa-brands fa-instagram"></i>
                                 Instagram</a></li>
 
@@ -55,83 +58,151 @@
                 </div>
             </div>
         </section>
+        <div class="container squares" id="container"></div>
         <div class="scroll-animation box">
             <section class="about" id="sobre-mi">
                 <div class="about__container">
-                    <h3 class="about__title">Sobre mi</h3>
+                    <h2 class="about__title about__paragraph">Sobre mi</h2>
                     <p class="about__paragraph">Soy originario de Puebla México, el 3ro de 5 hermanos y uno de ellos es
                         mi gemelo, cuando tenia 18 años y previo a escoger una carrera que estudiar me incline por la
                         arquitectura, pero en la universidad que me postule no logre pasar el examen de admisión,
                         entonces decidí tomar el rumbo de la tecnología y eso me llevo a estudiar la carera técnica de
-                        Informática.
-                        <br>
-                        <br>
-                        En aquel entonces empezaba el boom del acceso al internet publico en México y me llamo mucho la
-                        atención el
-                        diseño de paginas web (hablo de 1999), con mucha más razón quede encantado del desarrollo web,
-                        en aquellos años aprendí a crear paginas con HTML y Java.
-                        <br>
-                        <br>
-                        Poco después de terminar la carrera me dedique como por 8 meses al diseño web, y después lo
-                        abandone por poco más de 18 años, en el 2020 me invitan a colaborar en un proyecto de una
-                        intranet y es ahí que retomo la programación web poniéndome al día con las nuevas tecnologías.
-                        <br>
-                        <br>
-                        Y esa breve historia me trae al día de hoy que en mi búsqueda de mejorar y conocer más sobre
-                        esta bonita carrera estoy en este grupo ONE G5 de Oracle y Alura Latam
-                    </p>
-                    <p class="about__paragraph">Y un poco más sobre mi, el futbol me gusta tanto verlo como practicarlo, andar en bici, leer libros de ficción
-                        y
-                        cocinar</p>
-                    <img src="assets\signature.png">
+                        Informática.</p>
+                    <p class="about__paragraph"> En aquel entonces empezaba el boom del acceso al internet publico en
+                        México y me llamo mucho la atención el diseño de paginas web (hablo de 1999), con mucha más
+                        razón quede encantado del desarrollo web, en aquellos años aprendí a crear paginas con HTML y
+                        Java.</p>
+                    <p class="about__paragraph">Poco después de terminar la carrera me dedique como por 8 meses al
+                        diseño web, y después lo abandone por poco más de 18 años, en el 2020 me invitan a colaborar en
+                        un proyecto de una intranet y es ahí que retomo la programación web poniéndome al día con las
+                        nuevas tecnologías.</p>
+                    <p class="about__paragraph">Y esa breve historia me trae al día de hoy que en mi búsqueda de mejorar
+                        y conocer más sobre esta bonita carrera estoy en este grupo ONE G5 de Oracle y Alura Latam</p>
+                    <p class="about__paragraph">Y un poco más sobre mi, me gusta mucho cuidar, jugar y ver por dos mis
+                        hijos Axel y Mariel el futbol me gusta tanto verlo como practicarlo, andar en bici, leer libros 
+                        de ficción y cocinar</p>
+                    <img class="signature" src="assets\signature.png">
+                    <br>
                     <a class="home" href="#menu">Volver a menu <i class="fa-solid fa-house"></i></a>
             </section>
+
         </div>
-        <div class="scroll-animation box">
+        <div class="scroll-animation box box-skills">
             <section class="skills" id="skills">
                 <h3 class="skills__title">Skills</h3>
                 <div class="skills__line">
                     <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="./assets\htlm.png"></li>
-                            <li class="skills__name"> HTML 5</li>
-                        </ul>
+                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/html.png">
+                                </li>
+                                <li class="skills__name"> HTML 5</li>
+                            </ul>
+                        </a>
                     </div>
 
                     <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="./assets\js_icon.png" alt=""></li>
-                            <li class="skills__name">Javascript</li>
-                        </ul>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/css-3.png" alt="">
+                                </li>
+                                <li class="skills__name">CSS</li>
+                            </ul>
+                        </a>
                     </div>
 
                     <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="./assets\ts_icon.png" alt=""></li>
-                            <li class="skills__name">Typescript</li>
-                        </ul>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/js.png" alt="">
+                                </li>
+                                <li class="skills__name">Javascript</li>
+                            </ul>
+                        </a>
                     </div>
 
                     <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="./assets\nodejs_icon.png" alt=""></li>
-                            <li class="skills__name">Node JS</li>
-                        </ul>
+                        <a href="https://www.typescriptlang.org/es/docs/" target="_blank">
+
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/ts_icon.png" alt="">
+                                </li>
+                                <li class="skills__name">Typescript</li>
+                            </ul>
+                        </a>
                     </div>
 
                     <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="./assets\react_icon.png" alt=""> </li>
-                            <li class="skills__name">React</li>
-                        </ul>
+                        <a href="https://nodejs.org/es/docs" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/nodejs.png" alt="">
+                                </li>
+                                <li class="skills__name">Node JS</li>
+                            </ul>
+                        </a>
                     </div>
 
                     <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="./assets\css_icon.png" alt=""> </li>
-                            <li class="skills__name">CSS</li>
-                        </ul>
+                        <a href="https://es.react.dev/" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/react.png" alt="">
+                                </li>
+                                <li class="skills__name">React</li>
+                            </ul>
+                        </a>
                     </div>
+
+                    <div class="skills__box">
+                        <a href="https://angular.io/docs" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/angular.png" alt="">
+                                </li>
+                                <li class="skills__name">Angular</li>
+                            </ul>
+                        </a>
+                    </div>
+
+                    <div class="skills__box">
+                        <a href="https://git-scm.com/doc" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/git.png" alt="">
+                                </li>
+                                <li class="skills__name">Git</li>
+                            </ul>
+                        </a>
+                    </div>
+
+                    <div class="skills__box">
+                        <a href="https://docs.github.com/es" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/github.png" alt="">
+                                </li>
+                                <li class="skills__name">GitHub</li>
+                            </ul>
+                        </a>
+                    </div>
+
+                    <div class="skills__box">
+                        <a href="https://firebase.google.com/docs?hl=es-419" target="_blank">
+                            <ul>
+                                <li class="skills__img">
+                                    <img src="./assets/firebase.png" alt="">
+                                </li>
+                                <li class="skills__name">FireBase</li>
+                            </ul>
+                        </a>
+                    </div>
+
+
                 </div>
                 <a class="home" href="#menu">Volver a menu <i class="fa-solid fa-house"></i></a>
             </section>
@@ -168,6 +239,7 @@
     </footer>
 
     <script src="./js/script.js"></script>
+    <script src="./js/squares.js"></script>
 </body>
 
 </html>
