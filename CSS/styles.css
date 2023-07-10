@@ -60,7 +60,6 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 185px;
   color: #0037ff;
 }
 .icon {
@@ -73,4 +72,8 @@ footer {
 }
 .fa {
   color: #0037ff;
+}
+.title {
+  margin-left: 15px;
+  margin-right: 15px;
 }

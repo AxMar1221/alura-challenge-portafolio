@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/750ba6d981.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./CSS/styles.css" />
-    <link rel="stylesheet" href="./CSS/header.css" />
-    <link rel="stylesheet" href="./CSS/sections.css" />
-    <link rel="stylesheet" href="./CSS/squares.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./CSS/styles.css"/>
+    <link rel="stylesheet" href="./CSS/header.css"/>
+    <link rel="stylesheet" href="./CSS/sections.css"/>
+    <link rel="stylesheet" href="./CSS/squares.css"/>
+    <link rel="stylesheet" href="./CSS/form.css"/>
     <title>Portafolio 🚀</title>
 </head>
 
 <body>
-    <header>
+    <header>    
         <div class="avatar-name" id="menu">
-            <img class="avatar" src="assets/alura_logo.png" alt="logo">
+            <img class="avatar" src="./assets/Backgrounds-Avatars/alura_logo.png" alt="logo">
             <h5>Developer Tachi</h5>
         </div>
         <nav>
@@ -32,9 +34,10 @@
         </nav>
     </header>
     <main>
+
         <section class="biography">
             <div class="biography__div">
-                <img class="biography__profile" src="./assets/tachi-removebg.png" alt="avatar">
+                <img class="biography__profile" src="./assets/Backgrounds-Avatars/tachi-removebg.png" alt="avatar">
                 <div class="biography__container">
                     <h2 class="biography__bio">Hola, mi nombre es Mario Hernández Ramírez Jiménez (tengo tres apellidos
                         pero
@@ -53,16 +56,17 @@
                                 LinkedIn</a></li>
                         <li class="biography__network__item"><a href=""><i class="fa-brands fa-instagram"></i>
                                 Instagram</a></li>
-
                     </ul>
                 </div>
             </div>
         </section>
+
         <div class="container squares" id="container"></div>
+
         <div class="scroll-animation box">
             <section class="about" id="sobre-mi">
                 <div class="about__container">
-                    <h2 class="about__title about__paragraph">Sobre mi</h2>
+                    <h2 class="about__title about__paragraph"><i class="fa-solid fa-user title"></i> Sobre mi</h2>
                     <p class="about__paragraph">Soy originario de Puebla México, el 3ro de 5 hermanos y uno de ellos es
                         mi gemelo, cuando tenia 18 años y previo a escoger una carrera que estudiar me incline por la
                         arquitectura, pero en la universidad que me postule no logre pasar el examen de admisión,
@@ -81,21 +85,21 @@
                     <p class="about__paragraph">Y un poco más sobre mi, me gusta mucho cuidar, jugar y ver por dos mis
                         hijos Axel y Mariel, el futbol me gusta tanto verlo como practicarlo, andar en bici, leer libros
                         de ficción, escuchar música, ver series y cocinar.</p>
-                    <img class="signature" src="assets\signature.png">
+                    <img class="signature" src="./assets/Backgrounds-Avatars/signature.png" alt="signature">
                     <br>
                     <a class="home" href="#menu">Volver a menu <i class="fa-solid fa-house"></i></a>
             </section>
-
         </div>
+
         <div class="scroll-animation box box-skills">
             <section class="skills" id="skills">
-                <h3 class="skills__title">Skills</h3>
+                <h3 class="skills__title">Skills <i class="fa-solid fa-laptop title"></i></h3>
                 <div class="skills__line">
                     <div class="skills__box">
                         <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/html.png">
+                                    <img src="./assets/Skills/html.png">
                                 </li>
                                 <li class="skills__name"> HTML 5</li>
                             </ul>
@@ -106,7 +110,7 @@
                         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/css-3.png" alt="">
+                                    <img src="./assets/Skills/css-3.png" alt="">
                                 </li>
                                 <li class="skills__name">CSS</li>
                             </ul>
@@ -117,7 +121,7 @@
                         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/js.png" alt="">
+                                    <img src="./assets/Skills/js.png" alt="">
                                 </li>
                                 <li class="skills__name">Javascript</li>
                             </ul>
@@ -129,7 +133,7 @@
 
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/ts_icon.png" alt="">
+                                    <img src="./assets/Skills/ts_icon.png" alt="">
                                 </li>
                                 <li class="skills__name">Typescript</li>
                             </ul>
@@ -140,7 +144,7 @@
                         <a href="https://nodejs.org/es/docs" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/nodejs.png" alt="">
+                                    <img src="./assets/Skills/nodejs.png" alt="">
                                 </li>
                                 <li class="skills__name">Node JS</li>
                             </ul>
@@ -151,7 +155,7 @@
                         <a href="https://es.react.dev/" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/react.png" alt="">
+                                    <img src="./assets/Skills/react.png" alt="">
                                 </li>
                                 <li class="skills__name">React</li>
                             </ul>
@@ -162,7 +166,7 @@
                         <a href="https://angular.io/docs" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/angular.png" alt="">
+                                    <img src="./assets/Skills/angular.png" alt="">
                                 </li>
                                 <li class="skills__name">Angular</li>
                             </ul>
@@ -173,7 +177,7 @@
                         <a href="https://git-scm.com/doc" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/git.png" alt="">
+                                    <img src="./assets/Skills/git.png" alt="">
                                 </li>
                                 <li class="skills__name">Git</li>
                             </ul>
@@ -184,7 +188,7 @@
                         <a href="https://docs.github.com/es" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/github.png" alt="">
+                                    <img src="./assets/Skills/github.png" alt="">
                                 </li>
                                 <li class="skills__name">GitHub</li>
                             </ul>
@@ -195,7 +199,7 @@
                         <a href="https://firebase.google.com/docs?hl=es-419" target="_blank">
                             <ul>
                                 <li class="skills__img">
-                                    <img src="./assets/firebase.png" alt="">
+                                    <img src="./assets/Skills/firebase.png" alt="">
                                 </li>
                                 <li class="skills__name">FireBase</li>
                             </ul>
@@ -207,55 +211,59 @@
                 <a class="skills__menu" href="#menu">Volver a menu <i class="fa-solid fa-house"></i></a>
             </section>
         </div>
+
         <div class="scroll-animation box">
             <section class="hobbies" id="hobbies">
-                <h3 class="hobbies__title">Hobbies</h3>
+                <h3 class="hobbies__title">Hobbies <i class="fa-solid fa-gamepad title"></i></h3>
                 <div class="hobbies__line">
                     <div class="hobbies__box">
                         <ul>
-                            <li class="hobbies__img"><img src="./assets/children.png"></li>
-                            <li class="hobbies__name"> Mis hijos</li>
+                            <li class="hobbies__img"><img src="./assets/Hobbies/children.png"
+                                    alt="play-with-my-children"></li>
+                            <li class="hobbies__name"> Jugar con mis hijos</li>
                         </ul>
                     </div>
 
                     <div class="hobbies__box">
                         <ul>
-                            <li class="hobbies__img"> <img src="./assets//soccer.png" alt=""></li>
+                            <li class="hobbies__img"> <img src="./assets/Hobbies/soccer.png" alt="play-futbol"></li>
                             <li class="hobbies__name">Futbol</li>
                         </ul>
                     </div>
 
                     <div class="hobbies__box">
                         <ul>
-                            <li class="hobbies__img"> <img src="./assets/bicycling.png" alt=""></li>
+                            <li class="hobbies__img"> <img src="./assets/Hobbies/bicycling.png" alt="riding-a-bicycle">
+                            </li>
                             <li class="hobbies__name">Andar en bici</li>
                         </ul>
                     </div>
 
                     <div class="hobbies__box">
                         <ul>
-                            <li class="hobbies__img"> <img src="./assets/reading.png" alt=""></li>
+                            <li class="hobbies__img"> <img src="./assets/Hobbies/reading.png" alt="read-books"></li>
                             <li class="hobbies__name">Leer libros</li>
                         </ul>
                     </div>
 
                     <div class="hobbies__box">
                         <ul>
-                            <li class="hobbies__img"><img src="./assets/earphones.png" alt=""></li>
+                            <li class="hobbies__img"><img src="./assets/Hobbies/earphones.png" alt="listen-to-music">
+                            </li>
                             <li class="hobbies__name">Escuchar música</li>
                         </ul>
                     </div>
 
                     <div class="hobbies__box">
                         <ul>
-                            <li class="hobbies__img"> <img src="./assets/tv.png" alt=""> </li>
+                            <li class="hobbies__img"> <img src="./assets/Hobbies/tv.png" alt="watch-series"> </li>
                             <li class="hobbies__name">Ver series</li>
                         </ul>
                     </div>
 
                     <div class="hobbies__box">
                         <ul>
-                            <li class="hobbies__img"> <img src="./assets/cooking.png" alt=""> </li>
+                            <li class="hobbies__img"> <img src="./assets/Hobbies/cooking.png" alt="cooking"> </li>
                             <li class="hobbies__name">Cocinar</li>
                         </ul>
                     </div>
@@ -264,30 +272,42 @@
 
             </section>
         </div>
-        
+
         <div class="scroll-animation box">
             <section class="academic" id="formacion">
-                <h3 class="academic__title">Formación académica</h3>
+                <h3 class="academic__title"><i class="fa-solid fa-graduation-cap title"></i> Formación académica</h3>
                 <div class="academic__courses">
                     <div class="academic__courses__box">
                         <ul class="academic__courses__list">
-                            <li class="academic__courses__item__img"><img src="./assets/utim-logo.png"></li>
-                            <li class="academic__courses__item__title"><h4>T. S. U. en Informática</h4></li>
-                            <li class="academic__courses__item__subtitle"><p>2001 - 2003 UTIM</p></li>
+                            <li class="academic__courses__item__img"><img src="./assets/Formación/utim-logo.png"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>T. S. U. en Informática</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>2001 - 2003 UTIM</p>
+                            </li>
                         </ul>
                     </div>
                     <div class="academic__courses__box">
                         <ul class="academic__courses__list">
-                            <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
-                            <li class="academic__courses__item__title"><h4>Formación en Front-end</h4></li>
-                            <li class="academic__courses__item__subtitle"><p>En curso - Alura</p></li>
+                            <li class="academic__courses__item__img"><img src="./assets/Formación/alura_logo.png"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>Formación en Front-end</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>En curso - Alura</p>
+                            </li>
                         </ul>
                     </div>
                     <div class="academic__courses__box">
                         <ul class="academic__courses__list">
-                            <li class="academic__courses__item__img"><img src="./assets/udemy-logo.jpeg"></li>
-                            <li class="academic__courses__item__title"><h4>Cursos de desarrollo-programación web Front-End</h4></li>
-                            <li class="academic__courses__item__subtitle"><p>En curso - UDEMY</p></li>
+                            <li class="academic__courses__item__img"><img src="./assets/Formación/udemy-logo.jpeg"></li>
+                            <li class="academic__courses__item__title">
+                                <h4>Cursos de desarrollo-programación web Front-End</h4>
+                            </li>
+                            <li class="academic__courses__item__subtitle">
+                                <p>En curso - UDEMY</p>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -296,14 +316,78 @@
         </div>
 
         <div class="scroll-animation box">
-            <section>
-                <h2 class="experience">Sección de experiencia en programación</h2>
+            <section class="experience" id="xp">
+                <div class="experiencie__box">
+                <h3 class="experience__section__title">Experiencia Profesional<i
+                        class="fa-solid fa-laptop-code title"></i></h3>
+                    <div class="experience__info">
+                        <h2 class="experience__title" >Encriptador de texto</h2>
+                        <h3 class="experience__text">Challenge Alura Codificador</h3>
+                        <img class="experience__img" src="./assets/Proyects/encrypt.png">
+                        <div class="experience__description">
+                            <span class="experience__repo"><a
+                                    href="https://github.com/AxMar1221/Alura-Challenge-Encrypter"><button
+                                        class="experience__btn--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a
+                                    href="https://axmar1221.github.io/Alura-Challenge-Encrypter/" target="_blank"><button
+                                        class="experience__btn--demo">Ver
+                                        demo</button></a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experiencie__box">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Registros editables</h2>
+                            <h3 class="experience__text">Formulario creado con React, Javascript, MUI, Firebase y Sweetalert2, que permite crear, visualizar, editar y eliminar registros de usuarios</h3>
+                            <img class="experience__img" src="./assets/Proyects/registros-editables-1.png">
+                            <img class="experience__img" src="./assets/Proyects/registros-editables-2.png">
+                            <img class="experience__img" src="./assets/Proyects/registros-editables-3.png">
+                        <div class="experience__description">
+                            <span class="experience__repo"><a
+                                    href="https://github.com/AxMar1221/registros-editables"><button
+                                        class="experience__btn--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a href="https://registros-editables-firebase.netlify.app" target="_blank"><button class="experience__btn--demo">Ver
+                                        demo</button></a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="developer__title" id="menu">
+                    <img class="code-lap" src="./assets/Proyects/programming.png" alt="code-lap">
+                    <!-- <h2 id="rainbow__text">Developer Tachi</h2> -->
+                </div>
+                <a class="menu" href="#menu">Volver a menu <i class="fa-solid fa-house"></i></a>
             </section>
         </div>
 
         <div class="scroll-animation box">
-            <section>
-                <h2 class="contact">Formulario de contacto</h2>
+            <section class="contact__form" id="contacto">
+                <h2 class="contactForm__title"><i class="fa-solid fa-envelope title"></i>Contacto</h2>
+                <div class="contactForm__contacto">
+                    <div class="contactForm__text">
+                        <h3 class="contactForm__subtext">¿Quieres contactarme?</h3>
+                        <h3 class="contactForm__subtext">Complete el siguiente formulario y me pondré en contacto contigo lo antes posible. </h3>
+                        <form class="contactForm__form" name="form">
+                            <div class="form-control input-container">
+                                <input type="text" name="name" required data-tipo="name"><label>Nombre</label>
+                                <span class="input-message-error"></span>
+                            </div>
+                            
+                            <div class="form-control input-container">
+                                <input type="text" name="asunto" required data-tipo="subject"><label>Asunto</label>
+                                <span class="input-message-error"></span>
+                            </div>
+                            
+                            <div class="form-control input-container">
+                                <input type="email" name="email" required data-tipo="email"><label>E-mail</label>
+                                <span class="input-message-error"></span>
+                            </div>
+                            <textarea class="contactForm__textarea" rows="10" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" data-tipo="message"></textarea>
+                            <button type="submit" class="contactForm__btn">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
@@ -324,6 +408,8 @@
 
     <script src="./js/script.js"></script>
     <script src="./js/squares.js"></script>
+    <!-- <script src="./js/rainbowText.js"></script> -->
+    <script src="./js/validateForm.js"></script>
 </body>
 
 </html>

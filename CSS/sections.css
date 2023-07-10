@@ -56,7 +56,7 @@
   width: 100%;
 }
 .box-skills {
-  background: url(../assets/VS-CODE.png);
+  background: url(../assets/Backgrounds-Avatars/VS-CODE.png);
   border-radius: 15px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,9 +64,10 @@
 .skills__title {
   display: flex;
   justify-content: flex-end;
-  color: #ffea00;
   text-transform: uppercase;
+  color: #ffffff;
   font-size: 25px;
+  margin-right: 15px;
 }
 .skills__line {
   display: flex;
@@ -114,9 +115,10 @@
   transform: rotate(360deg);
 }
 .skills__menu  {
-  color: #ffea00;
   display: flex;
   justify-content: flex-end;
+  margin-left: 5px;
+  color: #ffffff;
 }
 .skills__menu i {
   margin-left: 5px;
@@ -221,4 +223,83 @@
 }
 .skills__menu2 i {
   margin-left: 5px;
+}
+.experience__section__title {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.experiencie__box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+  margin: 25px;
+  padding: 25px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.experience__title {
+  animation: lightSpeedInRight;
+  animation-duration: 3s;
+}
+.experience__text {
+  animation: flash;
+  animation-duration: 3s;
+  text-transform: lowercase;
+}
+.experience__img {
+  width: 75%;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid #0037ff;
+  border-radius: 15px;
+}
+.experience__img:hover {
+  box-shadow: 0px 0px 10px 10px rgb(31, 28, 213);
+}
+.experience__btn--repo {
+  background: #d8dfe8;
+  border-radius: 24px;
+  color: #0037ff;
+  border: none;
+  padding: 24px;
+  margin: 5px;
+  width: 120px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.experience__btn--demo {
+  background: #ff0000;
+  border-radius: 24px;
+  border: none;
+  color: #ffffff;
+  padding: 24px;
+  margin: 5px;
+  width: 120px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.experience__btn--demo:hover,
+.experience__btn--repo:hover {
+  transform: scale(1.1);
+}
+.developer__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 0, 0) 0%,
+    rgb(255, 26, 26) 3%,
+    rgb(65, 125, 255) 44%,
+    rgb(255, 255, 255) 100%
+  );
+  border-radius: 35%;
+}
+.code-lap {
+  width: 15%;
 }
