@@ -40,14 +40,14 @@ const typeErrors = [
 const errorMessages = {
   name: {
     valueMissing:
-      "🚫 Debes de proporcionar un nombre para poder personalizar la atención 🚫",
+      "Debes de proporcionar un nombre para poder personalizar la atención",
   },
   subject: {
     valueMissing:
-      "🚫 Debes de proporcionar un asusto para poder dar prioridad a tu consulta o petición 🚫",
+      "Debes de proporcionar un asusto para poder dar prioridad a tu consulta o petición",
   },
   email: {
-    valueMissing: "🚫 Debes de proporcionar un email de contacto 🚫",
+    valueMissing: "Debes de proporcionar un email de contacto",
     typeMismatch: "El correo no es valido",
   },
 };
