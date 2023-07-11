@@ -62,3 +62,31 @@ function showErrorMessages(inputType, input) {
   return message;
 }
 
+window.addEventListener("DOMContentLoaded", () => {
+  const textarea = document.getElementById("messageError");
+  const btn = document.getElementById("submitBtn");
+
+  function validateTextarea() {
+    const value = textarea.value.trim();
+    const errorElement = document.getElementById("error");
+
+    if (value.length >= 15 && value.length <= 500) {
+      btn.disabled = false;
+      btn.style.backgroundColor = "green";
+      errorElement.style.display = "none";
+    } else {
+      btn.disabled = true;
+      btn.style.backgroundColor = "red";
+      errorElement.style.display = "block";
+    }
+  }
+
+  textarea.addEventListener("input", validateTextarea);
+  btn.addEventListener("click", function (eve) {
+    eve.preventDefault();
+    Swal.fire({
+      title: "Mensaje enviado",
+      icon: "success",
+    });
+  });
+});

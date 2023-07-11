@@ -40,7 +40,7 @@
   list-style: none;
 }
 .biography__network__item a {
-  color: #0037ff;
+  color: #0425a0;
 }
 .fa-brands {
   color: #ffffff;
@@ -88,7 +88,8 @@
   width: 185px;
   height: 115px;
   justify-content: space-between;
-  border: 1px solid #0037ff;
+  border: 1px solid #0425a0;
+  color: #ffffff;
   border-radius: 15px;
   margin: 5px 15px;
   padding: 5px 15px;
@@ -111,10 +112,7 @@
   width: 65px;
   transition: 1s all;
 }
-.skills__img:hover img {
-  transform: rotate(360deg);
-}
-.skills__menu  {
+.skills__menu {
   display: flex;
   justify-content: flex-end;
   margin-left: 5px;
@@ -147,7 +145,8 @@
   width: 305px;
   height: 145px;
   justify-content: space-between;
-  border: 1px solid #0037ff;
+  border: 3px solid;
+  margin: 5px;
   border-radius: 15px;
   margin: 5px 15px;
   padding: 5px 15px;
@@ -155,10 +154,10 @@
 }
 .hobbies__box ul:hover {
   backdrop-filter: blur(15px);
+  border-radius: 45px;
   background: transparent;
   cursor: pointer;
-  color: #ff0000;
-  border: 2px solid #ff0000;
+  border: 4px solid;
   transform: scale(1.1);
 }
 .hobbies__img,
@@ -193,7 +192,7 @@
   width: 320px;
   height: 235px;
   justify-content: space-between;
-  border: 1px solid #0037ff;
+  border: 1px solid #0425a0;
   border-radius: 15px;
   margin: 5px 15px;
   padding: 5px 15px;
@@ -216,7 +215,7 @@
 .academic__courses__item__img img {
   width: 105px;
 }
-.skills__menu2  {
+.skills__menu2 {
   color: #ff0000;
   display: flex;
   justify-content: flex-end;
@@ -228,54 +227,49 @@
   display: flex;
   text-transform: uppercase;
   font-size: 25px;
+  justify-content: center;
+  align-items: center;
 }
-.experiencie__box {
+.experience__title {
+  text-transform: uppercase;
+}
+.experience__box-1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-transform: capitalize;
+  text-transform: lowercase;
   margin: 25px;
   padding: 25px;
   height: auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
 }
-.experience__title {
-  animation: lightSpeedInRight;
-  animation-duration: 3s;
-}
-.experience__text {
-  animation: flash;
-  animation-duration: 3s;
+.experience__box-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   text-transform: lowercase;
+  margin: 25px;
+  padding: 25px;
+  height: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
 }
 .experience__img {
-  width: 75%;
+  width: 55%;
   padding: 15px;
   margin: 5px;
-  border: 1px solid #0037ff;
+  border: 1px solid #0425a0;
   border-radius: 15px;
 }
-.experience__img:hover {
-  box-shadow: 0px 0px 10px 10px rgb(31, 28, 213);
-}
-.experience__btn--repo {
-  background: #d8dfe8;
-  border-radius: 24px;
-  color: #0037ff;
-  border: none;
-  padding: 24px;
-  margin: 5px;
-  width: 120px;
-  cursor: pointer;
-  transition: 0.3s all;
-}
+.experience__btn--repo,
 .experience__btn--demo {
-  background: #ff0000;
   border-radius: 24px;
+  font-size: 14px;
+  color: #0425a0;
   border: none;
-  color: #ffffff;
   padding: 24px;
   margin: 5px;
   width: 120px;
@@ -285,21 +279,4 @@
 .experience__btn--demo:hover,
 .experience__btn--repo:hover {
   transform: scale(1.1);
-}
-.developer__title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(
-    to bottom,
-    rgb(255, 0, 0) 0%,
-    rgb(255, 26, 26) 3%,
-    rgb(65, 125, 255) 44%,
-    rgb(255, 255, 255) 100%
-  );
-  border-radius: 35%;
-}
-.code-lap {
-  width: 15%;
 }
