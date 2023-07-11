@@ -1,0 +1,273 @@
+.biography {
+  padding: 15px 15px;
+  justify-content: center;
+  display: flex;
+}
+.biography__div {
+  display: flex;
+  width: 1136px;
+  justify-content: space-between;
+  align-items: center;
+}
+.biography__profile {
+  width: 35%;
+  border-radius: 368px;
+}
+.biography__container {
+  flex-shrink: 0;
+  width: 751px;
+  gap: 24px;
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 15px;
+}
+.biography__container a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.biography__network {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 751px;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 25px;
+  text-decoration: none;
+  list-style: none;
+}
+.about {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  width: 100%;
+}
+.box-skills {
+  background: url(../assets/Backgrounds-Avatars/VS-CODE.png);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills__title {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 25px;
+  margin-right: 15px;
+}
+.skills__line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  margin: 25px;
+  padding: 25px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+.skills__box ul {
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 185px;
+  height: 115px;
+  justify-content: space-between;
+  border: 2px solid #167271;
+  color: #ffffff;
+  border-radius: 15px;
+  margin: 5px 15px;
+  padding: 5px 15px;
+  transition: 0.3s all;
+}
+.skills__box ul:hover {
+  backdrop-filter: blur(15px);
+  background: transparent;
+  cursor: pointer;
+  color: #ff0000;
+  border: 3px solid #ff0000;
+  transform: scale(1.1);
+}
+.skills__name,
+.skills__img {
+  align-items: center;
+  list-style: none;
+}
+.skills__img img {
+  width: 65px;
+  transition: 1s all;
+}
+.skills__menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 5px;
+  color: #ffffff;
+}
+.skills__menu i {
+  margin-left: 5px;
+}
+.hobbies__title {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.hobbies__line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  margin: 25px;
+  padding: 25px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+.hobbies__box ul {
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 305px;
+  height: 145px;
+  justify-content: space-between;
+  border: 3px solid;
+  margin: 5px;
+  border-radius: 15px;
+  margin: 5px 15px;
+  padding: 5px 15px;
+  transition: 0.3s all;
+}
+.hobbies__box ul:hover {
+  backdrop-filter: blur(15px);
+  border-radius: 45px;
+  background: transparent;
+  cursor: pointer;
+  border: 4px solid;
+  transform: scale(1.1);
+}
+.hobbies__img,
+.hobbies__name {
+  align-items: center;
+  list-style: none;
+}
+.academic__title {
+  display: flex;
+  justify-content: right;
+  color: #167271;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.academic__courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+  margin: 25px;
+  padding: 25px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.academic__courses__box ul {
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 235px;
+  justify-content: space-between;
+  border: 2px solid #167271;
+  border-radius: 15px;
+  margin: 5px 15px;
+  padding: 5px 15px;
+  transition: 0.3s all;
+}
+.academic__courses__box ul:hover {
+  backdrop-filter: blur(15px);
+  background: transparent;
+  cursor: pointer;
+  color: #ff0000;
+  border: 3px solid #ff0000;
+  transform: scale(1.1);
+}
+.academic__courses__item__img,
+.academic__courses__item__title,
+.academic__courses__item__subtitle {
+  align-items: center;
+  list-style: none;
+}
+.academic__courses__item__img img {
+  width: 105px;
+}
+.skills__menu2 {
+  color: #167271;
+  display: flex;
+  justify-content: flex-end;
+}
+.skills__menu2 i {
+  margin-left: 5px;
+}
+.experience__section__title {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.experience__title {
+  text-transform: uppercase;
+}
+.experience__box-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: lowercase;
+  margin: 25px;
+  padding: 25px;
+  height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.experience__box-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: lowercase;
+  margin: 25px;
+  padding: 25px;
+  height: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+.experience__img {
+  width: 55%;
+  padding: 15px;
+  margin: 5px;
+  border: 2px solid #167271;
+  border-radius: 15px;
+}
+.experience__btn--repo,
+.experience__btn--demo {
+  border-radius: 24px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #167271;
+  border: none;
+  padding: 24px;
+  margin: 5px;
+  width: 120px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.experience__btn--demo:hover,
+.experience__btn--repo:hover {
+  transform: scale(1.1);
+}

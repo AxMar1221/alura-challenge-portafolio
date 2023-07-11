@@ -1,0 +1,48 @@
+header {
+  width: 95%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  color: #ffffff;
+}
+.avatar-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.avatar-name img {
+  margin-right: 5px;
+}
+.avatar {
+  display: block;
+  position: relative;
+  width: 25%;
+}
+nav a {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 9px 9px;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #ffffff;
+  border: 1px solid;
+  color: #167271;
+  border-radius: 15px;
+  padding: 9px 9px;
+}
+.menu__list__item {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.menu__list__item__email {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+}
