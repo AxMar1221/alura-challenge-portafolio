@@ -1,24 +1,37 @@
-// window.addEventListener("DOMContentLoaded", () => {
-//   const colors = [
-//     "red",
-//     "green",
-//     "blue",
-//     "yellow",
-//     "orange",
-//     "purple",
-//     "fuchsia",
-//     "golden",
-//     "Black"
-//   ];
+window.addEventListener("DOMContentLoaded", () => {
+  const colors = [
+    "red",
+    "green",
+    "blue",
+    // "yellow",
+    "orange",
+    "purple",
+    "fuchsia",
+    "brown",
+  ];
 
-//   const textElement = document.getElementById("rainbow__text");
-//   const text = textElement.innerText;
-//   let coloredText = "";
+  const rainbowUlBorder = document.querySelectorAll("ul.lista");
+  const changeLiText = document.querySelectorAll("li.hobbies__name");
 
-//   for (let i = 0; i < text.length; i++) {
-//     const color = colors[i % colors.length];
-//     coloredText += `<span class="colored-text" style="color: ${color}">${text[i]}</span>`;
-//   }
+  function changeUlBorderColor() {
+    for (let i = 0; i < rainbowUlBorder.length; i++) {
+      let randomUlBorderColor =
+        colors[Math.floor(Math.random() * colors.length)];
+      rainbowUlBorder[i].style.borderColor = randomUlBorderColor;
+    }
+  }
+  changeUlBorderColor();
+  setInterval(changeUlBorderColor, 15000);
 
-//   textElement.innerHTML = coloredText;
-// });
+  function changeLiTextColor() {
+    for (let i = 0; i < changeLiText.length; i++) {
+      let randomLiTextColor =
+        colors[Math.floor(Math.random() * colors.length)];
+      changeLiText[i].style.color = randomLiTextColor;
+    }
+  }
+  changeLiTextColor()
+  setInterval(changeLiTextColor, 15000);
+
+
+});

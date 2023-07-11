@@ -7,12 +7,13 @@ body {
   background: linear-gradient(
     to bottom,
     rgb(255, 60, 0) 0%,
-    /* rgb(255, 77, 6) 3%, */
+    rgb(255, 77, 6) 19%,
     /* rgb(255, 144, 65) 21%, */
-    rgba(255, 255, 255, 1) 34%,
+    rgba(255, 255, 255, 1) 24%,
     rgb(255, 255, 255) 100%
   );
   display: flex;
+  color: #292727;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   justify-content: center;
@@ -25,7 +26,7 @@ section {
 section a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #0037ff;
+  color: #0425a0;
 }
 .home a {
   display: flex;
@@ -34,7 +35,7 @@ section a {
 .box {
   width: 1250px;
   height: auto;
-  color: #0037ff;
+  color: #0425a0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +61,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #0037ff;
+  color: #0425a0;
 }
 .icon {
   font-size: 30px;
@@ -71,7 +72,7 @@ footer {
   width: 4%;
 }
 .fa {
-  color: #0037ff;
+  color: #0425a0;
 }
 .title {
   margin-left: 15px;

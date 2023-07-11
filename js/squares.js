@@ -1,6 +1,6 @@
 const container = document.getElementById("container");
 const color = ["#e74c3c", "#8e44ad", "#3498db", "#e67e22", "#2ecc71"];
-const SQUARES = 512;
+const SQUARES = 640;
 
 for (let i = 0; i < SQUARES; i++) {
   const square = document.createElement("div");
@@ -25,17 +25,11 @@ function getRandomColor() {
   return color[Math.floor(Math.random() * color.length)];
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  let paragraphs = document.getElementsByClassName("about__paragraph");
-  const colors = ["#ff1900", "#b200fe", "#0498fa", "#ff7700"];
+function showMessage() {
+  document.getElementById("message").style.display = "block";
+}
 
-  function changeParagraphColors() {
-    for (let i = 0; i < paragraphs.length; i++) {
-      let randomColor = colors[Math.floor(Math.random() * colors.length)];
-      paragraphs[i].style.color = randomColor;
-    }
-  }
-  changeParagraphColors();
+function hideMessage() {
+  document.getElementById("message").style.display = "none";
+}
 
-  setInterval(changeParagraphColors, 15000);
-});

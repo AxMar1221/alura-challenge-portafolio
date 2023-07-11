@@ -25,3 +25,9 @@
 .square:hover {
   transition: 0s;
 }
+.message {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  color: #ffffff;
+}
