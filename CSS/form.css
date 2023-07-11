@@ -30,8 +30,7 @@
 .form-control input {
   background-color: transparent;
   border: 0;
-  border-bottom: 2px #ff0000 solid;
-  color: #ff0000;
+  border-bottom: 2px #167271 solid;
   display: block;
   font-size: 18px;
   padding: 15px 0;
@@ -40,7 +39,6 @@
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: #0037ff;
 }
 .form-control label {
   position: absolute;
@@ -56,21 +54,21 @@
 }
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  color: #ff0000;
+  color: #167271;
   transform: translateY(-30px);
 }
 .contactForm__textarea {
   border: none;
-  border: 2px #ff0000 solid;
+  border: 2px #167271 solid;
   border-radius: 15px;
-  color: #ff0000;
+  color: #167271;
   font-size: 18px;
   font-weight: 400;
   text-align: justify;
   padding: 10px 10px;
   margin: 15px;
 }
-.input-message-error{
+.input-message-error {
   color: #ff0000;
   text-transform: uppercase;
 }
@@ -96,5 +94,5 @@
   color: #ffffff;
 }
 .valid {
-  background-color: green;
+  background-color: #167271;
 }
