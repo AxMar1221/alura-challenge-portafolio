@@ -6,9 +6,8 @@ body {
   align-items: center;
   background: linear-gradient(
     to bottom,
-    rgb(255, 60, 0) 0%,
-    rgb(255, 77, 6) 19%,
-    /* rgb(255, 144, 65) 21%, */
+    rgb(22, 114, 113, 1) 0%,
+    rgb(22, 114, 113, 1) 19%,
     rgba(255, 255, 255, 1) 24%,
     rgb(255, 255, 255) 100%
   );
@@ -26,7 +25,7 @@ section {
 section a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #0425a0;
+  color: #167271;
 }
 .home a {
   display: flex;
@@ -35,7 +34,7 @@ section a {
 .box {
   width: 1250px;
   height: auto;
-  color: #0425a0;
+  color: #167271;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +60,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #0425a0;
+  color: #167271;
 }
 .icon {
   font-size: 30px;
@@ -72,7 +71,7 @@ footer {
   width: 4%;
 }
 .fa {
-  color: #0425a0;
+  color: #167271;
 }
 .title {
   margin-left: 15px;

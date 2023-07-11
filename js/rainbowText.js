@@ -3,7 +3,6 @@ window.addEventListener("DOMContentLoaded", () => {
     "red",
     "green",
     "blue",
-    // "yellow",
     "orange",
     "purple",
     "fuchsia",
@@ -25,13 +24,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function changeLiTextColor() {
     for (let i = 0; i < changeLiText.length; i++) {
-      let randomLiTextColor =
-        colors[Math.floor(Math.random() * colors.length)];
+      let randomLiTextColor = colors[Math.floor(Math.random() * colors.length)];
       changeLiText[i].style.color = randomLiTextColor;
     }
   }
-  changeLiTextColor()
+  changeLiTextColor();
   setInterval(changeLiTextColor, 15000);
-
-
 });

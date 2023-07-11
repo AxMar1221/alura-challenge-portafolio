@@ -72,7 +72,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     if (value.length >= 15 && value.length <= 500) {
       btn.disabled = false;
-      btn.style.backgroundColor = "green";
+      btn.style.backgroundColor = "#167271";
       errorElement.style.display = "none";
     } else {
       btn.disabled = true;

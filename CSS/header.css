@@ -31,8 +31,8 @@ nav a {
 }
 nav a:hover {
   background: #ffffff;
-  border: 1px solid #0425a0;
-  color: #0425a0;
+  border: 1px solid;
+  color: #167271;
   border-radius: 15px;
   padding: 9px 9px;
 }

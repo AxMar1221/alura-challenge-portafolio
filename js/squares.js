@@ -32,4 +32,3 @@ function showMessage() {
 function hideMessage() {
   document.getElementById("message").style.display = "none";
 }
-
