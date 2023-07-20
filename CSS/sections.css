@@ -11,6 +11,8 @@
 }
 .biography__profile {
   width: 35%;
+  border: 1px solid #ffffff;
+  background: #cacaca;
   border-radius: 368px;
 }
 .biography__container {
